@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shortify.AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Shortify.AI Logo" />
+    <h1>Shortify.AI</h1>
+    <p>Transform your content into engaging reels effortlessly.</p>
+  </header>
+  <main>
+    <section>
+      <label for="platform">Select Platform:</label>
+      <select id="platform">
+        <option>Instagram</option>
+        <option>YouTube Shorts</option>
+        <option>TikTok</option>
+        <option>Facebook Reels</option>
+        <option>LinkedIn Video</option>
+        <option>Others</option>
+      </select>
+    </section>
+    <section>
+      <label for="category">Select Category:</label>
+      <select id="category">
+        <option>Motivation</option>
+        <option>Fitness</option>
+        <option>Education</option>
+        <option>News</option>
+        <option>Entertainment</option>
+        <option>Finance</option>
+        <option>Relationships</option>
+        <option>Health & Wellness</option>
+        <option>Tech</option>
+        <option>Others</option>
+      </select>
+    </section>
+    <section>
+      <label for="blogUrl">Enter Blog URL:</label>
+      <input type="url" id="blogUrl" placeholder="https://example.com/blog-post" />
+    </section>
+    <section>
+      <label for="duration">Select Reel Duration:</label>
+      <select id="duration">
+        <option value="15">15 seconds</option>
+        <option value="30">30 seconds</option>
+        <option value="60">60 seconds</option>
+      </select>
+    </section>
+    <button id="generate">Generate Script</button>
+    <div id="output"></div>
+  </main>
+  <footer>
+    <p>Made with love in India | © 2025 Shortify.AI</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
