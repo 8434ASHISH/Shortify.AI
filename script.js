@@ -2,8 +2,7 @@ async function generateReelScript() {
   const blogUrl = document.getElementById('blogUrl').value;
   const platform = document.getElementById('platform').value;
   const duration = document.getElementById('duration').value;
-  const topic = document.getElementById('topic').value;
-
+  
   const responseBox = document.getElementById('responseBox');
   responseBox.innerText = "⏳ Generating...";
 
